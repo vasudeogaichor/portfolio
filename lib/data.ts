@@ -82,7 +82,7 @@ export const projectsData = [
     tags: ["React", "react-draggable"],
     imageUrl: wordanalyticsImg,
   },
-] as const;
+];
 
 export const skillsData = [
   "HTML",
