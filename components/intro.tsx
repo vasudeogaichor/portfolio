@@ -49,9 +49,9 @@ export default function Intro() {
             initial={{opacity: 0, y: 100}}
             animate={{opacity: 1, y: 0}}
             >
-                <span className='font-bold'>Hello I'm Vasudeo.</span> I'am a{" "} <span className='font-bold'>full-stack developer</span> with{" "}
+                <span className='font-bold'>Hello I'm Vasudeo.</span> I'am a{" "} <span className='font-bold'>backend developer</span> with{" "}
                 with <span className='font-bold'>1.4 years</span> of experience. I enjoy building <span className='italic'>frontend and backend apps</span>.
-                My focus is{" "} <span className='underline'>MERN stack</span>.
+                My current focus is{" "} <span className='underline'>MERN stack</span>.
             </motion.h1>
 
             <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
