@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import blogsAppFrontendImg from "@/public/blogsAppFrontend.png";
+import blogsAppBackendImg from "@/public/blogsAppBackend.png";
+import canvasAppImg from "@/public/canvasApp.png";
 
 export const links = [
   {
@@ -66,21 +66,21 @@ export const projectsData = [
     description:
       "A conventional blogs app written in javascript, implemented with MERN stack, includes JWT auth, user register and login, password reset.",
     tags: ["React", "Node.js", "MongoDB", "Express.js", "Docker"],
-    imageUrl: corpcommentImg,
+    imageUrl: blogsAppFrontendImg,
   },
   {
     title: "Blogs (Backend only)",
     description:
       "A backend to perform CRUD operations on blogs entity, implemented with typescript and postgres.",
     tags: ["Node.js", "TypeScript", "Express.js", "Postgres", "Sequelize.js" ,"Docker"],
-    imageUrl: rmtdevImg,
+    imageUrl: blogsAppBackendImg,
   },
   {
     title: "Canvas Editor with React.js",
     description:
       "A canvas app to add and edit text and images, implemented with react-draggable library.",
     tags: ["React", "react-draggable"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: canvasAppImg,
   },
 ];
 
