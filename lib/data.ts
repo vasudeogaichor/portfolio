@@ -67,6 +67,7 @@ export const projectsData = [
       "A conventional blogs app written in javascript, implemented with MERN stack, includes JWT auth, user register and login, password reset.",
     tags: ["React", "Node.js", "MongoDB", "Express.js", "Docker"],
     imageUrl: blogsFrontendImg,
+    deployedUrl: 'http://vasudeogaichor.pythonanywhere.com/blogs',
   },
   {
     title: "PNR Status scraping with React/Django",
@@ -74,6 +75,7 @@ export const projectsData = [
       "A full stack app to check Indian railway PNR status with webscraping",
     tags: ["Python", "Javascript", "React.js", "Django Rest Framework", "BeaufifulSoup"],
     imageUrl: pnrFrontendImage,
+    deployedUrl: 'http://vasudeogaichor.pythonanywhere.com/pnr'
   },
   {
     title: "Canvas Editor with React.js",
