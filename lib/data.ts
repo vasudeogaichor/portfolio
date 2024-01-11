@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import blogsAppFrontendImg from "@/public/blogsAppFrontend.png";
-import blogsAppBackendImg from "@/public/blogsAppBackend.png";
+import blogsFrontendImg from "@/public/blogsFrontend.png";
+import pnrFrontendImage from "@/public/pnrFrontend.png";
 import canvasAppImg from "@/public/canvasApp.png";
 
 export const links = [
@@ -62,18 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Blogs End to End",
+    title: "Blogs End to End (MERN)",
     description:
       "A conventional blogs app written in javascript, implemented with MERN stack, includes JWT auth, user register and login, password reset.",
     tags: ["React", "Node.js", "MongoDB", "Express.js", "Docker"],
-    imageUrl: blogsAppFrontendImg,
+    imageUrl: blogsFrontendImg,
   },
   {
-    title: "Blogs (Backend only)",
+    title: "PNR Status scraping with React/Django",
     description:
-      "A backend to perform CRUD operations on blogs entity, implemented with typescript and postgres.",
-    tags: ["Node.js", "TypeScript", "Express.js", "Postgres", "Sequelize.js" ,"Docker"],
-    imageUrl: blogsAppBackendImg,
+      "A full stack app to check Indian railway PNR status with webscraping",
+    tags: ["Python", "Javascript", "React.js", "Django Rest Framework", "BeaufifulSoup"],
+    imageUrl: pnrFrontendImage,
   },
   {
     title: "Canvas Editor with React.js",
