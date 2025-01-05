@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import blogsFrontendImg from "@/public/blogsFrontend.png";
-import pnrFrontendImage from "@/public/pnrFrontend.png";
-import canvasAppImg from "@/public/canvasApp.png";
+import quizPlatformImg from "@/public/quizPlatform.png";
+import mongoHelperImg from "@/public/mongoHelper.png";
 
 export const links = [
   {
@@ -62,27 +62,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Quiz Platform (MERN)",
+    description:
+      "A web app for timed MCQ tests with CAT engine",
+    tags: ["Javascript", "React.js", "Express.js", "MongoDB"],
+    imageUrl: quizPlatformImg,
+    deployedUrl: 'https://quizplatform.vercel.app'
+  },
+  {
+    title: "Mongo Steam Helper (CLI Tool)",
+    description:
+      "CLI tool for streaming large amounts of MongoDB data",
+    tags: ["Typescript", "mongodb", "ora", "commander", "enquirer", "node-notifier"],
+    imageUrl: mongoHelperImg,
+  },
+  {
     title: "Blogs End to End (MERN)",
     description:
       "A conventional blogs app written in javascript, implemented with MERN stack, includes JWT auth, user register and login, password reset.",
     tags: ["React", "Node.js", "MongoDB", "Express.js", "Docker"],
     imageUrl: blogsFrontendImg,
     deployedUrl: 'http://vasudeogaichor.pythonanywhere.com/blogs',
-  },
-  {
-    title: "PNR Status scraping with React/Django",
-    description:
-      "A full stack app to check Indian railway PNR status with webscraping",
-    tags: ["Python", "Javascript", "React.js", "Django Rest Framework", "BeaufifulSoup"],
-    imageUrl: pnrFrontendImage,
-    deployedUrl: 'http://vasudeogaichor.pythonanywhere.com/pnr'
-  },
-  {
-    title: "Canvas Editor with React.js",
-    description:
-      "A canvas app to add and edit text and images, implemented with react-draggable library.",
-    tags: ["React", "react-draggable"],
-    imageUrl: canvasAppImg,
   },
 ];
 
